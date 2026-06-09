@@ -1,0 +1,199 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "name": "Municipality Admin",
+      "email": "admin@ecotrack.com",
+      "passwordHash": "$2b$10$lrfPf4eRM6nz9iyWYCF3ce/XLNoVrLuJef8S/9Xz9B/b1bILIwQMS",
+      "role": "admin",
+      "walletBalance": 10000,
+      "address": "Ward 4, Kathmandu",
+      "phone": "+977-9801234567",
+      "createdAt": "2026-06-03T14:16:29.912Z"
+    },
+    {
+      "id": "driver-1",
+      "name": "Ram Bahadur",
+      "email": "driver@ecotrack.com",
+      "passwordHash": "$2b$10$lrfPf4eRM6nz9iyWYCF3ceL59QngiKnJCMRwXZhdz2Mb387pCmZU.",
+      "role": "driver",
+      "walletBalance": 0,
+      "address": "Kalimati, Kathmandu",
+      "phone": "+977-9812345678",
+      "createdAt": "2026-06-03T14:16:29.914Z"
+    },
+    {
+      "id": "user-1",
+      "name": "Sita Sharma",
+      "email": "user@ecotrack.com",
+      "passwordHash": "$2b$10$lrfPf4eRM6nz9iyWYCF3ce3jtDWwyWAEShAJ0dvOmJB6v0S/hAqNq",
+      "role": "user",
+      "walletBalance": 120,
+      "address": "New Baneshwor, Kathmandu",
+      "phone": "+977-9841999999",
+      "createdAt": "2026-06-03T14:16:29.914Z"
+    },
+    {
+      "name": "Nir Gupta",
+      "email": "nir@gmail.com",
+      "passwordHash": "$2b$10$M1culpL3YBfA8V6nruHBYOYubJ27U7PYv4viZX.73QUdAAYCoLjBm",
+      "role": "user",
+      "address": "tokha 8",
+      "phone": "9837373737",
+      "id": "user-1780550041663-b6hi9zimb",
+      "walletBalance": 25,
+      "createdAt": "2026-06-04T05:14:01.663Z"
+    }
+  ],
+  "reports": [
+    {
+      "id": "report-1",
+      "title": "Plastic bottles beside river",
+      "description": "A large pile of plastic drink bottles accumulated near Bagmati corridor.",
+      "wasteType": "Plastic",
+      "estimatedWeight": 5,
+      "location": "Bagmati Corridor, Tinkune",
+      "userName": "Sita Sharma",
+      "userId": "user-1",
+      "status": "Collected",
+      "createdAt": "2026-05-31T14:16:29.914Z",
+      "updatedAt": "2026-05-31T14:16:29.914Z"
+    },
+    {
+      "id": "report-2",
+      "title": "Discarded carton sheets",
+      "description": "Corrugated paper and cardboard sheets from household shifting left out.",
+      "wasteType": "Paper",
+      "estimatedWeight": 12,
+      "location": "New Baneshwor, Marg 5",
+      "userName": "Sita Sharma",
+      "userId": "user-1",
+      "status": "Pending",
+      "createdAt": "2026-06-03T14:16:29.914Z",
+      "updatedAt": "2026-06-03T14:16:29.914Z"
+    },
+    {
+      "id": "report-3",
+      "title": "Metals from old storage shed",
+      "description": "Broken window iron frames and metallic scrap bins.",
+      "wasteType": "Metal",
+      "estimatedWeight": 8,
+      "location": "Boudha, Kathmandu",
+      "userName": "Sita Sharma",
+      "userId": "user-1",
+      "status": "Pending",
+      "createdAt": "2026-06-03T14:16:29.914Z",
+      "updatedAt": "2026-06-03T14:16:29.914Z"
+    },
+    {
+      "title": "vehicle doesn",
+      "description": "jygjg",
+      "wasteType": "Plastic",
+      "estimatedWeight": 56,
+      "location": "kujhk",
+      "userName": "Sita Sharma",
+      "userId": "user-1",
+      "id": "report-1780496493767-dzcravus4",
+      "status": "Pending",
+      "createdAt": "2026-06-03T14:21:33.767Z",
+      "updatedAt": "2026-06-03T14:21:33.767Z"
+    },
+    {
+      "title": "garbage bag near tokha ",
+      "description": "there is a garbage bag which is smelling , ",
+      "wasteType": "Plastic",
+      "estimatedWeight": 5,
+      "location": "tokha milan tole ",
+      "userName": "Nir Gupta",
+      "userId": "user-1780550041663-b6hi9zimb",
+      "id": "report-1780550104226-b19mwi0rg",
+      "status": "Collected",
+      "createdAt": "2026-06-04T05:15:04.226Z",
+      "updatedAt": "2026-06-04T05:19:45.457Z"
+    }
+  ],
+  "collections": [
+    {
+      "id": "collection-1",
+      "reportId": "report-1",
+      "userName": "Sita Sharma",
+      "userId": "user-1",
+      "driverName": "Ram Bahadur",
+      "driverId": "driver-1",
+      "garbageType": "Plastic",
+      "weightKg": 6,
+      "rewardAmount": 30,
+      "collectedAt": "2026-05-31T14:16:29.914Z"
+    },
+    {
+      "reportId": "report-1780550104226-b19mwi0rg",
+      "userName": "Nir Gupta",
+      "userId": "user-1780550041663-b6hi9zimb",
+      "driverName": "Ram Bahadur",
+      "driverId": "driver-1",
+      "garbageType": "Plastic",
+      "weightKg": 5,
+      "rewardAmount": 25,
+      "id": "col-1780550385458-zpy4jo0xf",
+      "collectedAt": "2026-06-04T05:19:45.458Z"
+    }
+  ],
+  "activeTrips": [],
+  "withdrawals": [],
+  "notificationLogs": [
+    {
+      "id": "notif-1780496533642-45l70xny3",
+      "userId": "user-1",
+      "type": "sms",
+      "recipient": "+977-9841999999",
+      "title": "EcoTrack - 5 Mins Warning",
+      "message": "[SMS Alert] Dear Citizen, EcoTrack municipal waste truck is exactly 5 minutes (2.5 km) away from 'kujhk'. Please consolidate your garbage bag near the curb.",
+      "createdAt": "2026-06-03T14:22:13.642Z"
+    },
+    {
+      "id": "notif-1780496533678-zde828dgm",
+      "userId": "user-1",
+      "type": "email",
+      "recipient": "user@ecotrack.com",
+      "title": "EcoTrack Nepal - 5 Minutes to Collection Arrival",
+      "message": "[Gmail Notification] Driver Ram Bahadur is en-route and approximately 5 minutes away from your waste accumulation site in 'kujhk'. Thank you for supporting ward cleanliness!",
+      "createdAt": "2026-06-03T14:22:13.678Z"
+    },
+    {
+      "id": "notif-1780501056083-1atyf8r4c",
+      "userId": "user-1",
+      "type": "sms",
+      "recipient": "+977-9841999999",
+      "title": "EcoTrack - 5 Mins Warning",
+      "message": "[SMS Alert] Dear Citizen, EcoTrack municipal waste truck is exactly 5 minutes (2.5 km) away from 'New Baneshwor, Marg 5'. Please consolidate your garbage bag near the curb.",
+      "createdAt": "2026-06-03T15:37:36.083Z"
+    },
+    {
+      "id": "notif-1780501056318-iyl43mlg3",
+      "userId": "user-1",
+      "type": "email",
+      "recipient": "user@ecotrack.com",
+      "title": "EcoTrack Nepal - 5 Minutes to Collection Arrival",
+      "message": "[Gmail Notification] Driver Ram Bahadur is en-route and approximately 5 minutes away from your waste accumulation site in 'New Baneshwor, Marg 5'. Thank you for supporting ward cleanliness!",
+      "createdAt": "2026-06-03T15:37:36.318Z"
+    },
+    {
+      "id": "notif-1780550241498-sms-n9a3l",
+      "userId": "user-1780550041663-b6hi9zimb",
+      "type": "sms",
+      "recipient": "+977-9841999999",
+      "title": "EcoTrack - 5 Mins Warning",
+      "message": "[SMS Warning] EcoTrack municipal truck is 5 minutes (2.5 km) away from 'tokha milan tole '. Please consolidate your sorted garbage bags!",
+      "createdAt": "2026-06-04T05:17:21.498Z"
+    },
+    {
+      "id": "notif-1780550241498-email-xzpfq",
+      "userId": "user-1780550041663-b6hi9zimb",
+      "type": "email",
+      "recipient": "nir@gmail.com",
+      "title": "EcoTrack arrival warning email - 5 minutes left",
+      "message": "Dear Nir Gupta,\n\nThis is an automated municipal alert from Kathmandu Waste Management.\n\nGarbage truck driven by 'Ram Bahadur' is exactly 5 minutes (2.5 km) away from your reported location: 'tokha milan tole '.\n\nPlease move your sorted garbage containers / bags near the pick up site so the crew can clean it instantly.\n\nThank you for working together to keep Kathmandu green!\n- EcoTrack Logistics HQ",
+      "createdAt": "2026-06-04T05:17:21.498Z"
+    }
+  ]
+}

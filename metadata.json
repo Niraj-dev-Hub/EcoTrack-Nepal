@@ -1,0 +1,6 @@
+{
+  "name": "EcoTrack Nepal",
+  "description": "Smart waste management system for Kathmandu, tracking waste contribution, reports, driver collections, and active rewards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
